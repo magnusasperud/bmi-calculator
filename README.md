@@ -3,7 +3,7 @@
 ## Description
 This project is a simple web-based BMI Calculator. It allows users to input their weight and height and calculates their Body Mass Index (BMI).
 
-##
+## Added testing title
 Testing a change
 
 ## Features
