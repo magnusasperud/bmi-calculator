@@ -22,6 +22,6 @@ Testing a change
 3. Click on 'Calculate' to see your BMI and health status.
 
 ## Contact
-Your Name – [Your Email](mailto:your.email@example.com)
+Magnus Asperud – [magnus.asperud@gmail.com](mailto:magnus.asperud@gmail.com)
 
 GitHub Link: [https://github.com/magnusasperud/bmi-calculator.git](https://github.com/magnusasperud/bmi-calculator.git)
