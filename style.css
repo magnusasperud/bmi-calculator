@@ -1,0 +1,77 @@
+:root {
+    --max_border_radius: 8px; 
+    --min_border_radius: calc(var(--max_border_radius) / 2);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: var(--max_border_radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: var(--min_border_radius);
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #005a9c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--min_border_radius);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004a7c;
+}
+
+#result, #healthTips {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: var(--min_border_radius);
+}
+
+#result {
+    background-color: #e7f5ff;
+}
+
+#healthTips {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+#bmiImageContainer {
+    margin-top: 20px;
+}
+
+#bmiImage {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Keep the aspect ratio */
+}
+
+@media (min-width: 600px) {
+    #bmiImage {
+        width: 30%; /* Adjust width for larger screens */
+    }
+}
