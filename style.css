@@ -1,5 +1,5 @@
 :root {
-    --max_border_radius: 6px; 
+    --max_border_radius: 10px; 
     --min_border_radius: calc(var(--max_border_radius) / 2);
 }
 body {
