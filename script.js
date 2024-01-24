@@ -41,7 +41,7 @@ document.getElementById('calculateBtn').addEventListener('click', function() {
     if (weight > 0 && height > 0) {
         let bmi = weight / (height * height);
         document.getElementById('bmiValue').textContent = bmi.toFixed(2);
-
+        document.getElementById('result').style.display = 'block';
         let status = '';
         if (bmi < 18.5) {
             status = 'Underweight';
